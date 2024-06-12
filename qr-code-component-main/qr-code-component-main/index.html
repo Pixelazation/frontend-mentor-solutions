@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+    body {
+      height: 100vh;
+      margin: 0;
+
+      background-color: #D5E1EF;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+
+    .panel {
+      max-width: fit-content;
+      border-radius: 10px;
+      padding: 16px 16px 32px;
+
+      background-color: white;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      font-family: "Outfit";
+    }
+
+    .panel img {
+      max-width: 288px;
+      margin: 0 auto;
+      border-radius: 10px;
+    }
+
+    .panel .panel-text {
+      text-align: center;
+      width: 288px;
+    }
+
+    .panel h1 {
+      width: 288px;
+
+      font-size: 22px;
+      color: rgba(31, 49, 79, 1);
+    }
+
+    .panel p {
+      width: 256px;
+      margin: 0 auto;
+
+      font-size: 15px;
+      color: gray;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="panel">
+    <img src="images/image-qr-code.png">
+
+    <div class="panel-text">
+      <h1>Improve your front-end skills by building projects</h1>
+      <p>
+        Scan the QR code to visit Frontend Mentor and take your
+        coding skills to the next level
+      </p>
+    </div>
+  </div>
+
+</body>
+</html>

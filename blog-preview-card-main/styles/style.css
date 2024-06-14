@@ -43,6 +43,7 @@ body {
 }
 .panel .content * {
   margin: 0;
+  line-height: 150%;
 }
 .panel .content .tags {
   display: flex;

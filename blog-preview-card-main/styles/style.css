@@ -40,13 +40,13 @@ body {
 }
 .panel .content .tags {
   display: flex;
+  font-weight: 800;
 }
 .panel .content .tags div {
   width: fit-content;
   padding: 4px 12px;
   border-radius: 4px;
   background-color: #F4D04E;
-  font-weight: bold;
 }
 .panel .content .publish-date {
   font-weight: 600;
@@ -64,7 +64,7 @@ body {
   display: flex;
   align-items: center;
   column-gap: 12px;
-  font-weight: bold;
+  font-weight: 800;
 }
 .panel .author-info img {
   height: 100%;

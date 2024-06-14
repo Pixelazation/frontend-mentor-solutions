@@ -3,6 +3,8 @@
 $yellow: #F4D04E;
 $grey: #7F7F7F;
 
+$bold-weight: 800;
+
 body {
     height: 100vh;
     margin: 0;
@@ -50,15 +52,15 @@ body {
 
         .tags {
             display: flex;
+
+            font-weight: $bold-weight;
     
             div {
                 width: fit-content;
                 padding: 4px 12px;
                 border-radius: 4px;
 
-                background-color: $yellow;
-
-                font-weight: bold;
+                background-color: $yellow;             
             }
         }
 
@@ -68,7 +70,7 @@ body {
 
         h2 {
             font-size: 24px;
-            font-weight: 800;
+            font-weight: $bold-weight;
         }
 
         p {
@@ -84,7 +86,7 @@ body {
         align-items: center;
         column-gap: 12px;
 
-        font-weight: bold;
+        font-weight: $bold-weight;
 
         img {
             height: 100%;

@@ -35,8 +35,14 @@ body {
   border-radius: 10px;
 }
 .panel .content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
   font-size: 14px;
   line-height: 150%;
+}
+.panel .content * {
+  margin: 0;
 }
 .panel .content .tags {
   display: flex;
@@ -51,11 +57,11 @@ body {
 .panel .content .publish-date {
   font-weight: 600;
 }
-.panel .content h2 {
+.panel .content .title {
   font-size: 24px;
   font-weight: 800;
 }
-.panel .content p {
+.panel .content .description {
   font-size: 16px;
   color: #7F7F7F;
 }
@@ -73,7 +79,7 @@ body {
 .panel:hover {
   box-shadow: 16px 16px;
 }
-.panel:hover h2:hover {
+.panel:hover h1:hover {
   color: #F4D04E;
   cursor: pointer;
 }

@@ -1,3 +1,89 @@
+/* Colors */
+/* Fonts */
+@font-face {
+  font-family: Inter;
+  src: url(../assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+body {
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #141414;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Inter;
+  color: white;
+  line-height: 150%;
+}
 
+.panel {
+  min-width: 256px;
+  margin: 0 auto;
+  padding: 32px;
+  border-radius: 12px;
+  background-color: #1f1f1f;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  row-gap: 16px;
+}
+.panel .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  row-gap: 24px;
+}
+.panel .info img {
+  width: 80px;
+  border-radius: 100%;
+}
+.panel .info .basic-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  row-gap: 8px;
+}
+.panel .info .basic-info h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+.panel .info .basic-info h2 {
+  margin: 0;
+  font-size: 14px;
+  color: #b6d343;
+}
+.panel .info p {
+  margin: 0;
+  font-size: 14px;
+}
+.panel .links {
+  width: 100%;
+  min-width: 256px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  row-gap: 16px;
+}
+.panel .links a {
+  width: 100%;
+  max-width: 288px;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: #333333;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.panel .links a:hover {
+  background-color: #b6d343;
+  color: #141414;
+}
 
 /*# sourceMappingURL=style.css.map */
